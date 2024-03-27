@@ -1,0 +1,12 @@
+{
+    "project_id" : "mar2024project",
+    "bucket_name" : "mar2024bkt",
+    "bqdataset_name" : "training",
+    "bqtable_name" : "moviesbq5",
+    "hdfs_db_name" : "kalyan",
+    "hdfs_table_name" : "movies",
+    "src_hdfs_table_location" : "hdfs://localhost/user/hive/warehouse/kalyan.db/movies/movies.csv",
+    "cluster_name" : "trainingclust",
+    "load_from" : "table",
+    "tobe_executed_py_filename" : "sample_pys.py"
+}
